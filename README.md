@@ -4,13 +4,15 @@
 
 ### Visual
 
-v: Seleção por character
-shift + v: seleção por linha
-ctrl + v: Seleção por coluna
+Tecla | descrição
+------|----------
+:v | Seleção por character
+:shift + v| seleção por linha
+:ctrl + v | Seleção por coluna
 
 ### Inserção
 
-tecla | descrição
+Tecla | descrição
 ------|----------
 :i | iniciar modo de inserção 
 :o | abre modo de edição na linha de baixo respeitando a identação
@@ -20,27 +22,35 @@ tecla | descrição
 
 Iniciar modo de comando `esc + :`
 
-q: 
+Comando | Descrição
+------|----------
+:q | Fechar
+:w | Salvar
+:wq | Salvar e fechar
+:e! | Desfazer alterações
 
 ## Navegação
 
-- k: [num] + k
-- l 
-- j
-- h
-
-gg: Vai para o início do arquivo
-ctrl + g: vai para o final do arquivo
+Tecla | Combinação | Descrição
+------|------------|----------
+:k | [num] + k | sobre o cursor uma linha ou n linhas
+:j | [num] + j | desce o cursor uma ou n linhas
+:j | [num] + l | na linha, avança o cursor para a esquerda uma coluna ou n colunas
+:h | [num] + h | na linha, retorna o cursor para a direita uma coluna ou n colunas
+gg| Vai para o início do arquivo
+shift + g | vai para o final do arquivo
 
 ## Split da tela
 
-:vs + [caminho e nome do arquivo] - vertical
-:sp + [caminho e nome do arquivo] - horizontal
+- :vs + [caminho e nome do arquivo] - vertical
+- :sp + [caminho e nome do arquivo] - horizontal
 
 Navegação: `:ctrl + ww`
 
 ## Busca
-/[termo]
+
+esc + /[termo]
 
 ## Replace
+
 :%s /[nome do termo]/[temo de substituição]/gc
