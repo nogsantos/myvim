@@ -1,4 +1,20 @@
-# Comandos vim
+# Vim
+
+## Plugins
+
+#### Gerenciador de plugins 
+
+[vim-pathogen](https://github.com/tpope/vim-pathogen) 
+
+#### Eplorer
+
+[NerdTree](https://github.com/scrooloose/nerdtree)
+
+##### Comandos
+
+- `:NERDtree` Abre o explorer
+- `seleciona o arquivo + s` abre o arquivo em split
+- `ctrl + w + [h, l, j, k]` Navega entre os arquivos abertos 
 
 ## Modos
 
@@ -9,6 +25,20 @@ Tecla | descrição
 :v | Seleção por character
 :shift + v| seleção por linha
 :ctrl + v | Seleção por coluna
+
+#### Copiar e colar
+
+Tecla | descrição
+------|----------
+y | Copia o texto selecionado
+x | Recorta todo o texto selecionado
+p | cola o texto copiado
+
+#### Editar texto selecionado
+
+Tecla | descrição
+------|----------
+o | Transforma todo o texto selecionado para minúsculo
 
 ### Inserção
 
@@ -49,7 +79,12 @@ Navegação: `:ctrl + ww`
 
 ## Busca
 
-esc + /[termo]
+esc + /[termo] para confirmar <enter>
+
+#### Navegação entre os termos
+
+- `n` para avançar
+- `shift + n` para voltar
 
 ## Replace
 

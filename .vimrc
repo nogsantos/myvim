@@ -14,6 +14,7 @@
 "    -> Spell checking
 "    -> Misc
 "    -> Helper functions
+"    -> Pathogen
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
@@ -380,3 +381,7 @@ function! <SID>BufcloseCloseIt()
      execute("bdelete! ".l:currentBufNum)
    endif
 endfunction
+
+" Pathogen vim
+
+execute pathogen#infect()
